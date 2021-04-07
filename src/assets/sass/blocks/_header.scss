@@ -1,0 +1,175 @@
+.h-container{
+    max-width: 1871px;
+    margin: auto;
+}
+body{
+    font-size: 15px;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    height: 69px;
+    background: white;
+    &_wrapper{
+        margin-bottom: 12px;
+    }
+    &_logo{
+        &_span{
+            color: #4CAF50;
+        }
+        float: left;
+        text-decoration: none;
+        line-height: 1;
+        font-size: 37px;
+        letter-spacing: 3px;
+        color: #555555;
+        display: block;
+        margin-top: 2px;
+        font-family: 'bold';
+        margin-bottom: 15px;
+    }
+    &_logo:hover{
+        color: #4CAF50;
+    }
+    &_info{
+        float: right;
+        &_p{
+            letter-spacing: 4px;
+            margin-right: 20px;
+            margin-top: 17px;
+            font-family: "Segoe UI",Arial,sans-serif;
+            float: left;
+        }
+        &_a{
+            line-height: 1.5;
+            padding: 6px 14px;
+            position: relative;
+            top: 7px;
+            color: #fff;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: "Segoe UI",Arial,sans-serif;
+            font-weight: bold;
+            float: right;
+        }
+    }
+}
+.menu{
+    &_left{
+        margin-left: -23px;
+        a{
+            font-size: 20px;
+            color: rgba(250, 250, 250, 0.952);
+            text-decoration: none;
+            padding: 10px 25px;
+            display: inline-block;
+            img{
+                width: 22px;
+            }
+        }
+        a:hover{
+            background-color: black;
+        }
+    }
+    &_right{
+        &_img{
+            
+            width: 22px;
+        }
+        a{
+            font-size: 20px;
+            color: rgba(250, 250, 250, 0.952);
+            text-decoration: none;
+            padding: 10px 25px;
+            display: inline-block;
+        }
+        a:hover{
+            background-color: black;
+        }
+    }
+    &_right {
+        float: right;
+    }
+    &_navbar{
+        position: fixed;
+        top: 69px;    
+        z-index: 2;
+        font-size: 17px;
+        background-color: #5f5f5f;
+        color: #f1f1f1;
+        width: 100%;
+        letter-spacing: 1px;
+        font-family: "Segoe UI",Arial,sans-serif;
+    }
+}
+.clear {
+    clear: both;
+}
+.navbar_title{
+    overflow: auto;
+    border-bottom: 1px solid #4c4c4c;
+}
+.link.active{
+    background-color: #4CAF50;
+}
+.link_down{
+    width: 15px;
+    margin-left: 10px;
+}
+.w3{
+    &_menu{
+        display: none;
+    }
+    &_h1{
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        color: #f1f1f1;
+        line-height: 1.5;
+        margin-left: 6px;
+        font-size: 24px;
+    }
+    &_tutorial{
+        float: left;
+        width: 30%;
+        margin-left: 62px;
+    }
+    &_row{
+        padding-bottom: 22px;
+        a{
+            line-height: 1.8;
+            display: block;
+            width: 100%;
+            color: #f1f1f1;
+            display: block;
+            padding: 8px 16px;
+            text-align: left;
+            white-space: normal;
+            outline: 0;
+            padding: 2px 0 2px 6px!important;
+            border: none;
+            display: inline-block;
+            padding: 8px 16px;
+            text-decoration: none;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        a:hover{
+            color: #000!important;
+            background-color: #ccc!important;
+        }
+    }
+}
+
+
+
+
+
+.rot{
+    transform: rotate(180deg);
+}
+.view762{
+    display: block;
+}

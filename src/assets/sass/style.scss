@@ -1,0 +1,36 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h-container{
+    max-width: 1871px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../font/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: 'italic';
+    src: url(../font/Ubuntu-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(../font/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(../font/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(../font/Ubuntu-Regular.ttf);
+}
+
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/wiev';
